@@ -9,9 +9,9 @@ function writeCards( names, event ) {
 
 writeCards(gifts,"birthday");
 function countDown() {
-  n=11;
-  while ( n > 0 ) {
-    console.log( n-- );
+  n=0;
+  while ( n <11 ) {
+    console.log( n++ );
    
   }
 
