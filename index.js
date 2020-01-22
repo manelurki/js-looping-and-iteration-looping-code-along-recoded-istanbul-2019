@@ -8,11 +8,12 @@ function writeCards( names, event ) {
 }
 
 writeCards(gifts,"birthday");
-function countDown( n ) {
+function countDown() {
+  n=11;
   while ( n > 0 ) {
     console.log( n-- );
    
   }
 
 }
-countDown(11);
+countDown();
