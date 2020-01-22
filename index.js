@@ -15,4 +15,4 @@ function countDown(n) {
   }
   
 }
-countDown(11);
+countDown(10);
