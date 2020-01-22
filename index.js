@@ -1,11 +1,12 @@
 let gifts=["manel","ahmet","selim"];
  
-function writeCards( gifts, event ) {
- 
-  for ( let i = 0; i < gifts.length; i++ ) {
-    console.log( `Thank you, ${gifts[i]}, for the wonderful ${event} gift!` )
+function writeCards( namesArray, event ) {
+  let thankYouCards = []
+  for ( let i = 0; i < namesArray.length; i++ ) {
+    thankYouCards.push( `Thank you, ${namesArray[i]}, for the wonderful ${event} gift!` )
   }
-  return gits;
+  return thankYouCards
+}
 }
 writeCards(gifts,"birthday");
 function countdown( n ) {
