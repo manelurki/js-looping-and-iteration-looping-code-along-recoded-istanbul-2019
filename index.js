@@ -15,4 +15,4 @@ function countdown( countdown ) {
   }
   
 }
-countDown();
+countdown();
