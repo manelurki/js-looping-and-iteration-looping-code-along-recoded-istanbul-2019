@@ -15,3 +15,4 @@ function countdown( n ) {
   }
 
 }
+countdown(10);
