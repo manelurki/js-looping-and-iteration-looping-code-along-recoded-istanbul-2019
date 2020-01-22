@@ -7,7 +7,7 @@ function writeCards( namesArray, event ) {
   }
   return thankYouCards
 }
-}
+
 writeCards(gifts,"birthday");
 function countdown( n ) {
   while ( n > 0 ) {
