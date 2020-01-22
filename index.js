@@ -1,4 +1,4 @@
-
+let names=["selim","ahmet","murat"];
 function writeCards( names, event ) {
   let thankYouCards = []
   for ( let i = 0; i < names.length; i++ ) {
